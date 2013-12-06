@@ -47,7 +47,9 @@ table {
 }
 
 
-
+.sharethis {
+  text-align: center;
+}
 .logo {
   float: left;
   margin-right: 40px;
@@ -72,8 +74,8 @@ body {
 
   font-size: 1em;
   line-height: 1.5;
-  font-family: 'Source Sans Pro', sans-serif,'Helvetica Neue', Helvetica, Arial;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  font-family: 'Source Sans Pro', sans-serif,'Helvetica Neue', Helvetica, Arial; font-weight: bold;
+  text-shadow: 0 1px 0 rgba(200, 200, 200, 0.8);
   color: #000000;
 }
 
@@ -275,7 +277,7 @@ h2 {
 
 h3 {
   color: #005e9f;
-  font-size: 18px;
+  font-size: 26px;
   font-weight: bold;
   margin-bottom: 8px;
 }
@@ -368,7 +370,9 @@ footer a:hover {
 ================================================== */
 
 /* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 959px) {}
+@media only screen and (max-width: 959px) {
+
+}
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 959px) {}
